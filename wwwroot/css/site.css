@@ -1,0 +1,105 @@
+/* Base Colors */
+:root {
+  --light-pink: #f8d0d6; /* Light Baby Pink */
+  --pink: #f0a6c1; /* Soft Pink */
+  --dark-pink: #e5728e; /* Darker Pink */
+  --text-dark: #4a4a4a; /* Dark Gray for text */
+}
+
+/* Backgrounds */
+.bg-light-pink {
+  background-color: var(--light-pink) !important;
+}
+
+.bg-pink {
+  background-color: var(--pink) !important;
+}
+
+.bg-dark-pink {
+  background-color: var(--dark-pink) !important;
+}
+
+/* Text */
+.text-dark-pink {
+  color: var(--dark-pink) !important;
+}
+
+/* Buttons */
+.btn-pink {
+  background-color: var(--pink) !important;
+  color: white !important;
+}
+
+.btn-pink:hover {
+  background-color: var(--dark-pink) !important;
+}
+
+/* Button Styling for Add Transaction and Export CSV */
+.btn-primary, .btn-success {
+  background-color: var(--pink) !important;
+  color: white !important;
+  border: none !important;
+}
+
+.btn-primary:hover, .btn-success:hover {
+  background-color: var(--dark-pink) !important;
+  color: white !important;
+}
+
+/* Form inputs */
+input.form-control, select.form-control, textarea.form-control {
+  background-color: var(--light-pink) !important;
+  border: 1px solid var(--pink) !important;
+  color: var(--text-dark) !important;
+}
+
+input.form-control:focus, select.form-control:focus, textarea.form-control:focus {
+  border-color: var(--dark-pink) !important;
+}
+
+/* Labels */
+label {
+  color: var(--dark-pink) !important;
+  font-weight: bold !important;
+}
+
+/* Card Styling */
+.card {
+  background-color: var(--light-pink) !important;
+  border: 1px solid var(--pink) !important;
+}
+
+/* Tables */
+table th, table td {
+  background-color: var(--light-pink) !important;
+  border: 1px solid var(--pink) !important;
+}
+
+/* Headers */
+h1, h2, h3, h4 {
+  color: var(--dark-pink) !important;
+}
+
+/* Specific target for the header text */
+header h1 {
+  color: var(--dark-pink) !important;  /* Ensure Budget Tracker text is dark pink */
+}
+
+/* Footer */
+footer {
+  background-color: var(--dark-pink) !important;
+  color: white !important;
+}
+
+/* Links */
+a {
+  color: var(--pink) !important;
+}
+
+a:hover {
+  color: var(--dark-pink) !important;
+}
+
+
+
+
